@@ -17,13 +17,13 @@ nav{
     font-size: 20px;
     cursor: pointer;
 }
-a:hover{
+.header-a:hover{
     padding: 30px;
     background-color: white;
     color: black;
 }
 
-a{
+.header-a{
     text-decoration: none;
     margin: 10px;
     background-color: black;
@@ -171,5 +171,34 @@ input:hover {
 .child-img:hover {
     transform: scale(1.1);
     filter: brightness(50%);
+}
+
+footer {
+    background-color:rgba(5, 255, 5, 0.2);
+    height: 250px;
+    margin-top: 200px; 
+    text-align: center;
+}
+
+#footer-h2 {
+    position: relative;
+    top: 100px;
+
+}
+
+.footer-a {
+    position: relative;
+    position: relative;
+    top: 100px;
+    margin: 10px;
+    color: white;
+    
+}
+
+#footer-p {
+    font-size: 13px;
+    position: relative;
+    top: 100px;
+    color:darkgrey;
 }
 
