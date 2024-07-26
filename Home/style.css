@@ -1,6 +1,10 @@
+body {
+    background-color: rgb(26, 26, 26);
+    height: 1082px;
+}
 
 header {
-    background-color: green;
+    background-color: rgb(0, 107, 0);
     width: 1905px;
     margin-left: -10px;
     margin-top: -26px;
@@ -42,6 +46,7 @@ h1{
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: black 2px 2px 3px ;
+    color: white;
 }
 
 i{
@@ -53,6 +58,7 @@ i{
     bottom: 12px;
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: white;
 }
 
 main {
@@ -75,7 +81,7 @@ main {
     margin-top: -617px;
     height: 602px;
     width: 1400px;
-    background-color: rgba(113, 228, 113, 0.5);
+    background-color: rgba(56, 164, 56, 0.5);
     margin-left: -20px;
     transition: 0.5s;
 }
@@ -84,6 +90,7 @@ main {
     position: relative;
     top: 170px;
     right: 250px;
+    color: white;
 }
 
 #h2-1{
@@ -92,6 +99,8 @@ main {
     right: 250px;
     font-size: 33px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: underline;
 }
 
 #deposit {
@@ -99,6 +108,7 @@ main {
     position: relative;
     top:200px;
     right: 200px;
+    color: white;
 }
 
 h1:hover {
@@ -109,7 +119,7 @@ h1:hover {
 form {
     position: relative;
     left: 1400px;
-    border: 2px green solid;
+    border: 2px rgb(4, 216, 4) solid;
     width: 400px;
     border-radius: 12px;
     padding-right: 70px;
@@ -124,7 +134,7 @@ input {
     width: 300px;
     text-align: center;
     background-color: black;
-    border: 2px green solid;
+    border: 2px rgb(4, 216, 4) solid;
     border-radius: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: 0.5s;
@@ -136,6 +146,7 @@ input {
     right: 75px;
     width: 150px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 #deposit-h2 {
@@ -183,7 +194,7 @@ footer {
 #footer-h2 {
     position: relative;
     top: 100px;
-
+    color: white;
 }
 
 .footer-a {
