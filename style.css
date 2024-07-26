@@ -175,14 +175,49 @@ input:hover {
     width: 300px;
     overflow: hidden;
     gap: 10px;
-    transition: 0.5s;
+    transition: 0.8s;
     background-size: cover;
     border-radius: 12px;
 }
 
+.child-img:hover img {
+    filter: blur(10px);
+}
 .child-img:hover {
     transform: scale(1.1);
-    filter: brightness(50%);
+}
+
+.child-img:hover::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    color: rgb(37, 167, 37);
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vannesa:hover::after {
+    content: "This is Vannesa, she is our loyal employee, she handles all the asset transfers.";
+}
+.romeo:hover::after {
+    content: "This is Romeo, he is the Vice-President of this Company, he loves to work and is dedicated to our bank.";
+}
+.lana:hover::after {
+    content: "This is Lana, she is the call center manager for our line, she is slowly proggresing. ";
+}
+.ken:hover::after {
+    content: "This is Ken, he's a Web Developer, and he's the one who handles our website.";
+}
+.karen:hover::after {
+    content: "This is Karen, she is a Shareholder of this company, basically one of the founders.";
+}
+.tyrone:hover::after {
+    content: "This is Tyrone, He is the Co-manager that helps the emplyees do their works to the fullest.";
 }
 
 footer {
