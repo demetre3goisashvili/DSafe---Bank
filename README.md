@@ -1,3 +1,7 @@
+![213910466-0508b373-1a23-4604-9bc0-f4fea118a570](https://github.com/user-attachments/assets/819b9257-3c0e-4ddc-98c9-23e20ada52bc)
+
+
+
 <h1 align="center">Hi 👋, I'm Demetre</h1>
 <h3 align="center">A passionate developer from Georgia</h3>
 
