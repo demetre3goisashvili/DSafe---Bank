@@ -177,6 +177,7 @@ input:hover {
     gap: 10px;
     transition: 0.5s;
     background-size: cover;
+    border-radius: 12px;
 }
 
 .child-img:hover {
@@ -212,4 +213,3 @@ footer {
     top: 100px;
     color:darkgrey;
 }
-
